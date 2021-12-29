@@ -51,7 +51,10 @@ As a user I want to
 [Back to Top](#table-of-contents)
 ### User Requirements and Expectations
 ### Requirements
-
+* Clear easy navigation for users
+* The ability to buy products directly from the site
+* Ability to search for products
+* 
 
 ### Expectations
 
