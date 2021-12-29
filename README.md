@@ -2,8 +2,8 @@
 ![Mock-up of site](static/images/mock-up.png)
 ## Goal for this Project
 To create a functioning e-commerce site to present to a client.
-The client is a sole trader who upcyles fabric, pots and furniture and sells them at craft fairs and online.
-Currently online sales are low as the client has no website if their own and sells via ebay and facebook but with a dedicated website hopes to reduce costs and increase sales.
+The client is a sole trader who upcyles fabrics, pots and furniture in an ethical manner and sells them at craft fairs and online.
+Currently online sales are low as the client has no website of their own and sells via ebay and facebook but with a dedicated website hopes to reduce costs and increase sales.
 
 ---
 ## Table of contents 
@@ -28,16 +28,25 @@ Currently online sales are low as the client has no website if their own and sel
 
 ### Site Owners Goals
 
+The owner of the site is a small business and whants in increase sales and awareness of her products and hopes that a dedicated website will help drive sales and increase customer engagement.
 
 [Back to Top](#table-of-contents)
 
 ### User Goals
 
+Users want to be able to easily navigate and buy products from Green Bee and find out when and where the next face to face markets will be. As well as any new products and business updates.
 
 [Back to Top](#table-of-contents)
 
 ### User Stories
 
+As a user I want to be able to easily navigate the site.
+As a user I want to be able to easily find the products I am looking for.
+As a user I want to be able to buy directly from the site.
+As a user I want to find out when the next face to face market is.
+As a user I want to learn more about the details of the products and what they are made from or how they were sourced.
+As a user I want to know more about how Green Bee came to be and what the plans are for the future.
+As a user I want to 
  
 [Back to Top](#table-of-contents)
 ### User Requirements and Expectations
@@ -95,6 +104,9 @@ I decided to use [Balsamiq](https://balsamiq.com/) to make the wireframes, theay
 * Python
 
 ### Libraries and Frameworks
+
+* Django
+* Bootstrap
 
 ### Tools
 
