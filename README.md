@@ -54,9 +54,13 @@ As a user I want to
 * Clear easy navigation for users
 * The ability to buy products directly from the site
 * Ability to search for products
-* 
+* A section with infromation about the company.
 
 ### Expectations
+
+* Cutomers should be able to browse products
+* Customers should be able to payfor and buy products directly from the website.
+* Company history available for users to read. 
 
 
 [Back to Top](#table-of-contents)
@@ -65,6 +69,8 @@ As a user I want to
 
 
 ### Fonts
+
+I chose to use google fonts for this projects and decided to use Mukta as the main text font as well as Courgette for the Title font.
 
 
 
