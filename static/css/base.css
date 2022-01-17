@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('media/images/temp-bg.png') no-repeat center center fixed;
+    background: url('media/images/logo.jpeg') no-repeat center center fixed;
     background-size: cover;
     background-color: #0A3200;
     height: calc(100vh - 164px);

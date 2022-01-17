@@ -1,7 +1,8 @@
 [
     {"pk": 1, "model": "products.product", "fields": {"name": "Bees Wax Wraps", 
     "description": "Handmade bees wax wraps for food storage.", "price": 4.99, "category": 2, "rating": 4.5, 
-    "image_url": "", "image": ""}},{"pk":1, "model":"products.product", "fields":{"name": "Bunting",
+    "image_url": "url('media/images/product-images/wrap.jpeg')", "image": "wrap.jpeg"}},
+    {"pk":1, "model":"products.product", "fields":{"name": "Bunting",
     "description": "Handmade block printed cotton bunting.", "price": 15.00, "category": 1, "rating": 4.0,
     "image_url":"", "image":""}}
 
