@@ -17,9 +17,9 @@
                 Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="products-link">
-                <a href="" class="dropdown-item">Plants and Terreriums</a>
-                <a href="" class="dropdown-item">Bags</a>
-                <a href="" class="dropdown-item">Homeware</a>
+                <a href="{% url 'products' %}?category=plants,terrerium" class="dropdown-item">Plants and Terreriums</a>
+                <a href="{% url 'products' %}?category=bags" class="dropdown-item">Bags</a>
+                <a href="{% url 'products' %}?category=homeware" class="dropdown-item">Homeware</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
