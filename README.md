@@ -66,7 +66,7 @@ As a user I want to
 [Back to Top](#table-of-contents)
 ## Design Choices
 ### Colors
-
+![colour palette](wireframes/)
 
 ### Fonts
 
