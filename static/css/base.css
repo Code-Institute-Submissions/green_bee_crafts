@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('media/images/logo.jpeg') no-repeat center center fixed;
+    background: url('media/images/product-images/logo.jpeg') no-repeat center center fixed;
     background-size: cover;
     background-color: #0A3200;
     height: calc(100vh - 164px);
@@ -69,6 +69,11 @@ body {
 	position: fixed;
 	background: #0A3200;
 	z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 /* -------------------------------- Media Queries */
