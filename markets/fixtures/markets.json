@@ -1,0 +1,5 @@
+[
+    {"model": "markets.market", "fields": {"name": "Hexham Makers Market", 
+    "description": "", "when": 4.99, "where": 2, "image": "wrap.jpeg"}}
+
+]
