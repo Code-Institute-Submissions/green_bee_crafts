@@ -68,8 +68,11 @@ Users want to be able to easily navigate and buy products from Green Bee and fin
 ![colour palette](wireframes/GreenBeeColours.png)
 After discussion with the business owner we decided upon a colour scheme combining natural colours and soft pastels to compliment her current branding.
 
-006D77 will be used as the main backgroung colour
-FFDDD2 will be used as on overlay on products and bag pages
+#006D77 will be used as the main background colour
+#FFDDD2 will be used as on overlay on products and bag pages
+#83C5BE will be used for the buttons
+#EDF6F9 will be used for button text and borders
+
 
 
 
