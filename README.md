@@ -65,23 +65,18 @@ Users want to be able to easily navigate and buy products from Green Bee and fin
 [Back to Top](#table-of-contents)
 ## Design Choices
 ### Colors
-![colour palette](wireframes/GreenBeeColours.png)
+![colour palette](wireframes/)
 After discussion with the business owner we decided upon a colour scheme combining natural colours and soft pastels to compliment her current branding.
 
 #006D77 will be used as the main background colour
 #FFDDD2 will be used as on overlay on products and bag pages
 #83C5BE will be used for the buttons
 #EDF6F9 will be used for button text and borders
-
-
-
-
+#A26769 will be used for the navbar to help navigation stand out
 
 ### Fonts
 
 I chose to use google fonts for this projects and decided to use Mukta as the main text font as well as Courgette for the Title font.
-
-
 
 [Back to Top](#table-of-contents)
 
@@ -119,6 +114,7 @@ I decided to use [Balsamiq](https://balsamiq.com/) to make the wireframes, theay
 * HTML
 * CSS
 * JavaScript
+* jQuery
 * Python
 
 ### Libraries and Frameworks
@@ -131,7 +127,6 @@ I decided to use [Balsamiq](https://balsamiq.com/) to make the wireframes, theay
 * Git
 * Gitpod
 * Heroku
-* MongoDB Atlas
 * Balsamiq
 * W3C HTML Validataion Service
 * W3C CSS Validation Service
