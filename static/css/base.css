@@ -3,11 +3,11 @@ html {
 }
 
 body {
-    background: url('media/images/product-images/logo.jpeg') no-repeat center center fixed;
+    background: url('media/images/logo.jpeg') no-repeat center center fixed;
     background-size: cover;
-    background-color: #0A3200;
+    background-color: #006D77;
     height: calc(100vh - 164px);
-    color: #0A3200;
+    color: #006D77;
     font-family: 'Mukta', 'sans-serif';
 }
 
@@ -73,7 +73,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: #fff;
+	background: #FFDDD2;
 	z-index: -1;
 }
 
