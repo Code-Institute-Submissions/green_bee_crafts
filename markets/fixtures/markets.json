@@ -1,5 +1,7 @@
 [
     {"model": "markets.market", "fields": {"name": "Hexham Makers Market", 
-    "description": "", "when": "", "where": "", "entry-fee": "", "image": "wrap.jpeg"}}
+    "description": "Local makers market at Hexam Abbey where you can find all sorts of local handmade items for you and your friends.",
+     "when": "The first Saturday of the Month", "where": "Hexham Abbey, Hexham, Northumberland", 
+     "entry-fee": "Free Enty", "image": "wrap.jpeg"}}
 
 ]
