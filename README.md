@@ -99,10 +99,15 @@ I decided to use [Balsamiq](https://balsamiq.com/) to make the wireframes, theay
 [Back to Top](#table-of-contents)
 ## Features
 ### Existing Features
-
+* Users can browse products by price, category as well as find more specific details on products that they are
+interested in.
+* Users can build a basket of products to order.
+* Users can sign in a nd register for an account with django allauth.
+* Users can find information on upcomimg markets where they can buy products face to face.
 
 [Back to Top](#table-of-contents)
 ### Features to be implemented 
+* Blog section to be added for greater customer interaction and engagement.
 
 
 [Back to Top](#table-of-contents)
