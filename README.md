@@ -1,4 +1,4 @@
-# Yarn Barn
+# Green Bee Crafts
 ![Mock-up of site](media/images/???)
 ## Goal for this Project
 To create a functioning e-commerce site to present to a client.
