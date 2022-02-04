@@ -144,6 +144,8 @@ interested in.
 [Back to Top](#table-of-contents)
 ## Bugs
 
+[Bug fixes](bugs.md)
+
 [Back to Top](#table-of-contents)
 ## Deployment
 ### Local Deployment
