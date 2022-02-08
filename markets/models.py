@@ -17,7 +17,6 @@ class Markets(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey('Markets', null=True, blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     description = models.TextField()
     when = models.TextField()
