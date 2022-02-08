@@ -47,8 +47,10 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'markets',
+    'checkout',
+    'upcycling',
 
-    #other
+    # other
     'storages'
 ]
 
