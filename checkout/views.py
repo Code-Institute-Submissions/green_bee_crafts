@@ -12,7 +12,6 @@ def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
-
     bag = request.session.get('bag', {})
     if not bag:
         messages.error(request, "There's nothing in your bag at the moment")
@@ -27,7 +26,6 @@ def checkout(request):
         currency=settings.STRIPE_CURRENCY,
     )
 
-    print(intent)
 
     order_form = OrderForm()
 
@@ -38,7 +36,7 @@ def checkout(request):
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': stripe_public_key,
+        'stripe_public_key': 'pk_live_51JvilWL49WFTmKqyoqwpfSouotb2h3glqfKNasMumvK9b9FCWhRdbW1M0PfIOglBTIPsnVJqBbR5Bz9p9lq7b9xs00mZdKxq01',
         'client_secret': intent.client_secret,
     }
 
