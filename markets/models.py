@@ -1,7 +1,8 @@
 from django.db import models
 
 
-class Markets(models.Model):
+class Market(models.Model):
+    """ Gives user information regarding upcoming face to face events"""
     name = models.CharField(max_length=254)
     description = models.TextField()
     when = models.TextField()
