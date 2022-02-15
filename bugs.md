@@ -24,5 +24,12 @@ On the production site the css and images were no longer showing meaning that it
 ### The Problem
 * Two models are not functioning correctly on my live site they throw error 500 messages when the page tries to load. On closer inspection in the admin the model is there but not accessible or with the ability to add data.
 ### The Fix
+This was actually and error with my browser! once the cache was fully cleared the pages loaded correctly.
 
+## Superuser missing
+### The Problem
+* My superuser stopped working on both the development and live site, meaning that I could no longer access the admin panel or backend of my site.
+
+### The Fix
+* After some checking I found that I had forgotten to add the DATABASE_URL to my env.py and as such changes had not been migrating to my live site correctly. Once this was re-established and the migrations added I set up a new super user through the terminal and full access was once again working.
 
