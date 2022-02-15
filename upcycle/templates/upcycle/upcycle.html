@@ -13,13 +13,28 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
-            {% for upcycle in upclycle %}
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">How we Upcycle</h2>
+                <hr>
+            </div>
+        <div class="row">
+        
+        <div class="row"></div>
             <div class="col-lg-8 offset-2">
+                {% for upcycle in upclycle %}
                 <h3>{{ upcycle.title }}</h3>
+                {% if market.image %}
+                            <img class="card-img-top img-fluid" src="{{ market.image.url }}" alt="{{ market.name }}">
+                        {% else %}
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ market.name }}">
+                        {% endif %}
+                    </div>
+                
                 <p>{{ upcycle.information }}</p>
                 <p>{{ upcycle.author }}</p>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 {% endblock %}
