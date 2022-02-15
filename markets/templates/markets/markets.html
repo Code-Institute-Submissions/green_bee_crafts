@@ -27,17 +27,24 @@
                                 {% if market.image %}
                                     <img class="card-img-top img-fluid" src="{{ market.image.url }}" alt="{{ market.name }}">
                                 {% else %}
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ market.name }}">
                                 {% endif %}
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ market.name }}</p>
+                                    <hr>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left">{{ market.description }}</p>
+                                            <hr>
+                                            <p><strong>When</strong></p>
                                             <p class="lead mb-0 text-left">{{ market.when }}</p>
+                                            <hr>
+                                            <p><strong>Where</strong></p>
                                             <p class="lead mb-0 text-left">{{ market.where }}</p>
+                                            <hr>
+                                            <p><strong>Entry Fee</strong></p>
                                             <p class="lead mb-0 text-left">{{ market.cost }}</p>
                                         </div>
                                     </div>
