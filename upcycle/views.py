@@ -5,4 +5,4 @@ from django.shortcuts import render
 def upcycle(request):
     """ A view to return the index page """
 
-    return render(request, 'upcycle.html')
+    return render(request, 'upcycle/upcycle.html')

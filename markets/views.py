@@ -3,6 +3,6 @@ from django.shortcuts import render
 
 # Create your views here.
 def markets(request):
-    """ A view to return the index page """
+    """ A view to return all markets """
 
-    return render(request, 'markets.html')
+    return render(request, 'markets/markets.html')
