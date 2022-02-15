@@ -25,11 +25,20 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="markets-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'markets' %}" id="markets-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Markets
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="markets-link">
-                <a href=" " class="dropdown-item">Upcoming Events</a>
+                <a href="{% url 'markets' %}" class="dropdown-item">Upcoming Events</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'upcycle' %}" id="upcycle-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                How we upcycle
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="upcycle-link">
+                <a href="{% url 'upcycle' %}" class="dropdown-item">Upcycling</a>
             </div>
         </li>
     </ul>
