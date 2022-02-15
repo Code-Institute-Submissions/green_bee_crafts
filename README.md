@@ -83,6 +83,7 @@ I chose to use google fonts for this projects and decided to use Mukta as the ma
 ## Wireframes
 I decided to use [Balsamiq](https://balsamiq.com/) to make the wireframes, theay can be viewed below.
 ## Desktop Wireframes
+![Home Page](wireframes/desktop/green-bee-home-desktop.png)
 
 
 ## Tablet Wireframes
