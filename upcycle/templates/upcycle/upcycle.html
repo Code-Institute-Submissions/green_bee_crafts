@@ -13,11 +13,13 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
+            {% for upcycle in upclycle %}
             <div class="col-lg-8 offset-2">
                 <h3>{{ upcycle.title }}</h3>
                 <p>{{ upcycle.information }}</p>
                 <p>{{ upcycle.author }}</p>
             </div>
+            {% endfor %}
         </div>
     </div>
 {% endblock %}
