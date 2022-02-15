@@ -1,5 +1,5 @@
 # Green Bee Crafts
-![Mock-up of site](media/images/???)
+![Green Bee Logo](media/images/logo.jpeg)
 ## Goal for this Project
 To create a functioning e-commerce site to present to a client.
 The client is a sole trader who upcyles fabrics, pots and furniture in an ethical manner and sells them at craft fairs and online.
@@ -65,7 +65,7 @@ Users want to be able to easily navigate and buy products from Green Bee and fin
 [Back to Top](#table-of-contents)
 ## Design Choices
 ### Colors
-![colour palette](wireframes/)
+![colour palette](wireframes/GreenBee.png)
 After discussion with the business owner we decided upon a colour scheme combining natural colours and soft pastels to compliment her current branding.
 
 #006D77 will be used as the main background colour
