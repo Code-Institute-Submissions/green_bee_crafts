@@ -1,5 +1,5 @@
 # Green Bee Crafts
-![Green Bee Logo](media/images/logo.png)
+
 ## Goal for this Project
 To create a functioning e-commerce site to present to a client.
 The client is a sole trader who upcyles fabrics, pots and furniture in an ethical manner and sells them at craft fairs and online.
@@ -44,8 +44,7 @@ Users want to be able to easily navigate and buy products from Green Bee and fin
 * As a user I want to be able to easily find the products I am looking for.
 * As a user I want to be able to buy directly from the site.
 * As a user I want to find out when the next face to face market is.
-* As a user I want to learn more about the details of the products and what they are made from or how they were sourced.
-* As a user I want to 
+* As a user I want to learn more about the details of the products and what they are made from or how they were sourced. 
  
 [Back to Top](#table-of-contents)
 ### User Requirements and Expectations
@@ -68,11 +67,13 @@ Users want to be able to easily navigate and buy products from Green Bee and fin
 ![colour palette](wireframes/GreenBee.png)
 After discussion with the business owner we decided upon a colour scheme combining natural colours and soft pastels to compliment her current branding.
 
-#006D77 will be used as the main background colour
-#FFDDD2 will be used as on overlay on products and bag pages
-#83C5BE will be used for the buttons
-#EDF6F9 will be used for button text and borders
-#A26769 will be used for the navbar to help navigation stand out
+* #006D77 will be used as the main background colour
+* #FFDDD2 will be used as on overlay on products and bag pages
+* #83C5BE will be used for the buttons
+* #EDF6F9 will be used for button text and borders
+* #A26769 will be used for the navbar to help navigation stand out
+
+During development I found that the mulitple colours were distracting for the user and decided to keep buttons and functionality clean in black and white meaning that this stands out more clearly for th user when processing and order.
 
 ### Fonts
 
