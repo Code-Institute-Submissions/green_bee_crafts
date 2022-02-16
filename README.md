@@ -1,5 +1,5 @@
 # Green Bee Crafts
-![Green Bee Logo](media/images/logo.jpeg)
+![Green Bee Logo](media/images/logo.png)
 ## Goal for this Project
 To create a functioning e-commerce site to present to a client.
 The client is a sole trader who upcyles fabrics, pots and furniture in an ethical manner and sells them at craft fairs and online.
@@ -145,6 +145,7 @@ interested in.
 [Back to Top](#table-of-contents)
 ## Bugs
 
+* Bugs that hve been encoutered during this project can be found in the following file.
 [Bug fixes](bugs.md)
 
 [Back to Top](#table-of-contents)
