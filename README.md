@@ -79,24 +79,33 @@ During development I found that the mulitple colours were distracting for the us
 
 I chose to use google fonts for this projects and decided to use Mukta as the main text font as well as Courgette for the Title font.
 
+### Site Structure
+
+To understand how best to set up the site I made very simple flow chart to help structure the site during the build proccess this also helped with working out how the databases needed to link together. as some elements of the site were fairly independent from other marts such as face to face markets and upcycling information which was beneficial to site visitors but do not need to pass information to the sales process or the user profile.
+A link to the [Site Flowchart](https://drive.google.com/file/d/1MVDEKBKrtc8RqAbHxqpxWBAtKTQhBMrd/view?usp=sharing) can be found here.
+
 [Back to Top](#table-of-contents)
 
 ## Wireframes
-I decided to use [Balsamiq](https://balsamiq.com/) to make the wireframes, theay can be viewed below.
+* I decided to use [Balsamiq](https://balsamiq.com/) to make the wireframes, theay can be viewed below.
+
+* For each screen size there is a link to the wireframes below, these were used to help focus coding and design to keep the look consistent across all screens.
+
 ## Desktop Wireframes
+
 [Desktop Wireframes](wireframes/desktop)
 
-
 ## Tablet Wireframes
+
 [Tablet Wireframes](wireframes/tablet)
 
-
 ## Mobile Wireframes
-[Mobile Wireframes](wireframes/mobile)
 
+[Mobile Wireframes](wireframes/mobile)
 
 ## Database
 
+A [Database Model](https://drawsql.app/ad-web-solutions/diagrams/green-bee-crafts/embed) was also created to help when crating the models in Django so help make sure that information that needed to be passed between models was not created twice.
 
 [Back to Top](#table-of-contents)
 ## Features
@@ -106,11 +115,11 @@ interested in.
 * Users can build a basket of products to order.
 * Users can sign in a nd register for an account with django allauth.
 * Users can find information on upcomimg markets where they can buy products face to face.
+* Users can find information on the upcycling techniques used in creating thses products.
 
 [Back to Top](#table-of-contents)
 ### Features to be implemented 
 * Blog section to be added for greater customer interaction and engagement.
-
 
 [Back to Top](#table-of-contents)
 
@@ -142,6 +151,8 @@ interested in.
 [Back to Top](#table-of-contents)
 
 ## Testing
+
+[Testing](testing.md) was undertaken but I have documented it seperately to save space.
 
 [Back to Top](#table-of-contents)
 ## Bugs
@@ -367,5 +378,6 @@ This set up will allow your site to use Postgres in deployment and sqlite3 in de
 [Back to Top](#table-of-contents)
 ## Credits
 
+As always I have had so much amazing support from my family and friends special shout out to Paul whjo despite the time difference has been helping me test the site. Huge thanks to my Mentor Simen! He's coached me through when I didn't think I was going to make it. As always the Slack and stackoverflow communities have been amazing helping me solve problems that I have encountered along the way.
 
 [Back to Top](#table-of-contents)
