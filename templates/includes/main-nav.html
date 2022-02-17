@@ -10,22 +10,22 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=dsc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item" aria-label="sort by price">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=dsc" class="dropdown-item" aria-label="sort by rating">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item" aria-label="sort by category">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item" aria-label="see all products">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Products
+                Categories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="products-link">
-                <a href="{% url 'products' %}?category=plants,terrerium" class="dropdown-item">Plants and Terreriums</a>
-                <a href="{% url 'products' %}?category=bags" class="dropdown-item">Bags</a>
-                <a href="{% url 'products' %}?category=homeware" class="dropdown-item">Homeware</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=plants,terrerium" class="dropdown-item" aria-label="plants and terreriums">Plants and Terreriums</a>
+                <a href="{% url 'products' %}?category=bags" class="dropdown-item" aria-label="bags">Bags</a>
+                <a href="{% url 'products' %}?category=homeware" class="dropdown-item" aria-label="homeware">Homeware</a>
+                <a href="{% url 'products' %}" class="dropdown-item" aria-label="all products">All Products</a>
             </div>
         </li>
 
