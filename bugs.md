@@ -33,3 +33,9 @@ This was actually and error with my browser! once the cache was fully cleared th
 ### The Fix
 * After some checking I found that I had forgotten to add the DATABASE_URL to my env.py and as such changes had not been migrating to my live site correctly. Once this was re-established and the migrations added I set up a new super user through the terminal and full access was once again working.
 
+## Live emails not sending
+### The Problem
+* On registration the email to the user for email validation is not sending as such registration cannot be completed.
+### The Fix
+* On checking through my code I couldn't see why the email would not be sending, I revisited the lesson on email set up and stil couldn't see what was wrong.
+* After a nudge from a tutor I realised that I had not remove the development variable from my config vars in Heroku so after removing that and restarting the appit was all working fine.
