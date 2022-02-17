@@ -377,7 +377,12 @@ This set up will allow your site to use Postgres in deployment and sqlite3 in de
 
 [Back to Top](#table-of-contents)
 ## Credits
+### Code
 
-As always I have had so much amazing support from my family and friends special shout out to Paul whjo despite the time difference has been helping me test the site. Huge thanks to my Mentor [ Simen aka Eventyret_mentor](https://github.com/Eventyret)! He's coached me through when I didn't think I was going to make it. As always the Slack and stackoverflow communities have been amazing helping me solve problems that I have encountered along the way.
+* A good amount of the python and Django code comes from the Code Institue's [Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) walk thorugh were I then grew my project from.
+
+### Acknowledgments
+
+As always I have had so much amazing support from my family and friends special shout out to Paul who despite the time difference has been helping me test the project. Huge thanks to my Mentor [ Simen aka Eventyret_mentor](https://github.com/Eventyret)! He's coached me through when I didn't think I was going to make it. As always the Slack, especially [Suzy B](https://github.com/suzybee1987) and stackoverflow communities have been amazing helping me solve problems that I have encountered along the way.
 
 [Back to Top](#table-of-contents)
