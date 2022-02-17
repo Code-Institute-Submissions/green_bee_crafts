@@ -44,12 +44,15 @@ The "Shop Now" button works and takes the user through to the products page.
 |   | Clicking Markets takes user to the Markets page | Click Upcoming Markets | Redirected to Markets Page | Pass |
 |   | Clicking on the How we upycle page | Click Upcycling  | Redirected to How we upcycle page | Pass |
 
-- users logged in navigation
-|  Navbar links   | Clicking Profile takes user to their profile page | Click Profile | Redirected to Profile Page | Pass |
+- users logged in
+
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----: |
+||  Navbar links   | Clicking Profile takes user to their profile page | Click Profile | Redirected to Profile Page | Pass |
 |  | Click Log Out logs out the user | Click Log Out | User logged out and redirected to Log In | Pass |
 
 
-    - user not logged in navigation
+- user not logged in navigation
 
 | Feature        | Expected           | Testing  | Result | Pass/Fail |
 | ------------- |-------------| -----|  ---------- | :-----:|
