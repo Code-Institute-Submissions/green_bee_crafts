@@ -157,7 +157,7 @@ interested in.
 [Back to Top](#table-of-contents)
 ## Bugs
 
-* Bugs that hve been encoutered during this project can be found in the following file.
+* Bugs that have been encoutered during this project can be found in the following file.
 [Bug fixes](bugs.md)
 
 [Back to Top](#table-of-contents)
@@ -378,6 +378,6 @@ This set up will allow your site to use Postgres in deployment and sqlite3 in de
 [Back to Top](#table-of-contents)
 ## Credits
 
-As always I have had so much amazing support from my family and friends special shout out to Paul whjo despite the time difference has been helping me test the site. Huge thanks to my Mentor Simen! He's coached me through when I didn't think I was going to make it. As always the Slack and stackoverflow communities have been amazing helping me solve problems that I have encountered along the way.
+As always I have had so much amazing support from my family and friends special shout out to Paul whjo despite the time difference has been helping me test the site. Huge thanks to my Mentor [ Simen aka Eventyret_mentor](https://github.com/Eventyret)! He's coached me through when I didn't think I was going to make it. As always the Slack and stackoverflow communities have been amazing helping me solve problems that I have encountered along the way.
 
 [Back to Top](#table-of-contents)
