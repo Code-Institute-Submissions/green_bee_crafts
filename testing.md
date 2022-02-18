@@ -12,23 +12,18 @@
 * [User Profile](#user-profile)
 * [Markets](#markets)
 * [Upcylcing](#upcycling-page)
-* [Lighthouse](#lighthouse)
 * [User Stories Testing](#user-stories-testing)
+* [Responsivness](#responsivness)
+* [Wave](#wave)
+* [Lighthouse](#lighthouse)
+* [Conclusions](#conclusions)
+
 
 ## Code Validation
 
 * HTML code was vaildated through [WC3 HTML Markup validator](https://validator.w3.org/nu/) and passed.
 * CSS code was vaildated using [WC3 CSS Validation](https://jigsaw.w3.org/css-validator/) and passed.
 * JS code was validated using [JSHint](https://jshint.com/)
-
-[Back to contents](#contents)
-
-## Responsivness
-* I tested in various devices including iMac, iPhone8, Samsung Tablet and iPad as well as various browswers including Chrome, Safari and Samsung.
-* I checked for the quality of the landing page layout and title as well as colourings.
-#### Conclusion
-The landing page is clean and simple on all screen sizes encouraging the user to view products.
-I am happy that it works well on all screen sizes and browsers.
 
 [Back to contents](#contents)
 
@@ -199,9 +194,32 @@ I am happy that it works well on all screen sizes and browsers.
 
 [Back to contents](#contents)
 
+## Responsivness
+* I tested in various devices including iMac, iPhone8, Samsung Tablet and iPad as well as various browswers including Chrome, Safari and Samsung.
+### Home Page
+The home page is clean and simple on all screen sizes with the shop now button easily accessible on large and small screens.
+### Navigation
+The navigation bar is easy to use on large screens and is responsive to screen size collapsing to a compact hamburger drop down on mobile screen sizes to that the user experience is still clean and simple making sure that the screen is not cluttered, aiming for a good user experince.
+### Products pages
+The product pages are responsive and the number of products per line changed according to the size of the screen so that on small mobile devices only on product is in a row so that tha images and text are still clear and easy to read. Whilst the number of products in a row increases with screen size so that the screen does not feel empty, but images don't become streched or distorted on larger screen sizes.
+### Shopping Bag Page
+The shopping bag page is responsive to screen size and is clean, clear and simple for shoppers to use no matter what device they choose to use.
+### Checkout Page
+The checkout page is fully responsive and changes the order of appearance of information depending on screen size this is so that if you are purchasing using a mobile devise that has a small screen the important information is easily visibly without the need for a lot of scrolling to find the order details. On large screen it appears slightly differently but is still clear and easy to use.
+### Profile page
+The profile page is responsive to screen size and is clean, clear and simple for shoppers to use no matter what device they choose to use.
+#### Conclusion
+Overall I am happy with the responsiveness of my site and feel that it works well across all screen sizes and browsers so that all users should have a good experince using the site.
+
 ## Wave
 
 The site was inspected for accessibility using the [Wave Browser Extension](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) and changes made to HTML following this inspection. 
 The result is no major errors although my lablelling need to improve for accessibility.
 
 ## Lighthouse
+
+All pages were put through Lighthouse, the scores were quite good with some areas needing a little more focus  especially around external CSS and better aria labelling for accessibility, all things which I can improve upon in future projects. No major error were found and no score came through very low.
+
+## Conclusions
+
+After testing my site works across a variety of browsers and screen sizes andis functional responsive. Whilst there are still improvements to be made on the accessibility of the site. I also could improve my ise of images on the site and make them more responsive in the future. But as a first full stack project it is functionaland has room for improvment.
